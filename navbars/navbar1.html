@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only text no photo and search box.</title>
+    <style>
+        /* css reset  */
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        #navbar{
+            background-color: red;
+            /* change this color to make the background color change . */
+        }
+        ul{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height:34px;
+            width: 100vw;
+            
+        }
+        ul li{
+            list-style: none;
+            margin: 5px;
+            text-align: center;        }
+        ul li :hover{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">uses</a></li>
+            <li><a href="">contribut</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
